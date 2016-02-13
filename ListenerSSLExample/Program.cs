@@ -24,7 +24,13 @@ namespace ListenerSSLExample
 
             var cert = X509Manager.GetPersistentCertificate("127.0.0.1", "123abc", System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "unit_test.pfx"));
             Uri uri = new Uri(String.Format("http://localhost:{0}/{1}/", 3689, "kis-database"));
+            CouchbaseLiteTcpOptions options = new CouchbaseLiteTcpOptions();
+
+          
             CouchbaseLiteTcpListener listener = new CouchbaseLiteTcpListener(manager, 3689, CouchbaseLiteTcpOptions.UseTLS, cert);
+            listener.SetPasswords(new Dictionary<string, string>() { { "user", "pass" } });
+            
+
 
             listener.Start();
 
