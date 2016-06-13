@@ -2363,7 +2363,7 @@
             </summary>
             <typeparam name="T">
             The anonymous type to deserialize to. This can't be specified
-            traditionally and must be infered from the anonymous type passed
+            traditionally and must be inferred from the anonymous type passed
             as a parameter.
             </typeparam>
             <param name="value">The JSON to deserialize.</param>
@@ -2376,7 +2376,7 @@
             </summary>
             <typeparam name="T">
             The anonymous type to deserialize to. This can't be specified
-            traditionally and must be infered from the anonymous type passed
+            traditionally and must be inferred from the anonymous type passed
             as a parameter.
             </typeparam>
             <param name="value">The JSON to deserialize.</param>
