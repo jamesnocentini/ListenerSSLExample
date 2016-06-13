@@ -177,7 +177,7 @@
             <param name="trigger">The accepted trigger.</param>
             <param name="destinationState">The state that the trigger will cause a
             transition to.</param>
-            <returns>The reciever.</returns>
+            <returns>The receiver.</returns>
         </member>
         <member name="M:Stateless.StateMachine`2.StateConfiguration.PermitIf(`1,`0,System.Func{System.Boolean})">
             <summary>
@@ -188,7 +188,7 @@
             transition to.</param>
             <param name="guard">Function that must return true in order for the
             trigger to be accepted.</param>
-            <returns>The reciever.</returns>
+            <returns>The receiver.</returns>
         </member>
         <member name="M:Stateless.StateMachine`2.StateConfiguration.PermitReentry(`1)">
             <summary>
@@ -196,7 +196,7 @@
             Reentry behaves as though the configured state transitions to an identical sibling state.
             </summary>
             <param name="trigger">The accepted trigger.</param>
-            <returns>The reciever.</returns>
+            <returns>The receiver.</returns>
             <remarks>
             Applies to the current state only. Will not re-execute superstate actions, or
             cause actions to execute transitioning between super- and sub-states.
@@ -210,7 +210,7 @@
             <param name="trigger">The accepted trigger.</param>
             <param name="guard">Function that must return true in order for the
             trigger to be accepted.</param>
-            <returns>The reciever.</returns>
+            <returns>The receiver.</returns>
             <remarks>
             Applies to the current state only. Will not re-execute superstate actions, or
             cause actions to execute transitioning between super- and sub-states.
@@ -371,7 +371,7 @@
             <param name="trigger">The accepted trigger.</param>
             <param name="destinationStateSelector">Function to calculate the state 
             that the trigger will cause a transition to.</param>
-            <returns>The reciever.</returns>
+            <returns>The receiver.</returns>
         </member>
         <member name="M:Stateless.StateMachine`2.StateConfiguration.PermitDynamic``1(Stateless.StateMachine{`0,`1}.TriggerWithParameters{``0},System.Func{``0,`0})">
             <summary>
@@ -381,7 +381,7 @@
             <param name="trigger">The accepted trigger.</param>
             <param name="destinationStateSelector">Function to calculate the state 
             that the trigger will cause a transition to.</param>
-            <returns>The reciever.</returns>
+            <returns>The receiver.</returns>
             <typeparam name="TArg0">Type of the first trigger argument.</typeparam>
         </member>
         <member name="M:Stateless.StateMachine`2.StateConfiguration.PermitDynamic``2(Stateless.StateMachine{`0,`1}.TriggerWithParameters{``0,``1},System.Func{``0,``1,`0})">
@@ -392,7 +392,7 @@
             <param name="trigger">The accepted trigger.</param>
             <param name="destinationStateSelector">Function to calculate the state 
             that the trigger will cause a transition to.</param>
-            <returns>The reciever.</returns>
+            <returns>The receiver.</returns>
             <typeparam name="TArg0">Type of the first trigger argument.</typeparam>
             <typeparam name="TArg1">Type of the second trigger argument.</typeparam>
         </member>
@@ -404,7 +404,7 @@
             <param name="trigger">The accepted trigger.</param>
             <param name="destinationStateSelector">Function to calculate the state 
             that the trigger will cause a transition to.</param>
-            <returns>The reciever.</returns>
+            <returns>The receiver.</returns>
             <typeparam name="TArg0">Type of the first trigger argument.</typeparam>
             <typeparam name="TArg1">Type of the second trigger argument.</typeparam>
             <typeparam name="TArg2">Type of the third trigger argument.</typeparam>
@@ -419,7 +419,7 @@
             that the trigger will cause a transition to.</param>
             <param name="guard">Function that must return true in order for the
             trigger to be accepted.</param>
-            <returns>The reciever.</returns>
+            <returns>The receiver.</returns>
         </member>
         <member name="M:Stateless.StateMachine`2.StateConfiguration.PermitDynamicIf``1(Stateless.StateMachine{`0,`1}.TriggerWithParameters{``0},System.Func{``0,`0},System.Func{System.Boolean})">
             <summary>
@@ -431,7 +431,7 @@
             that the trigger will cause a transition to.</param>
             <param name="guard">Function that must return true in order for the
             trigger to be accepted.</param>
-            <returns>The reciever.</returns>
+            <returns>The receiver.</returns>
             <typeparam name="TArg0">Type of the first trigger argument.</typeparam>
         </member>
         <member name="M:Stateless.StateMachine`2.StateConfiguration.PermitDynamicIf``2(Stateless.StateMachine{`0,`1}.TriggerWithParameters{``0,``1},System.Func{``0,``1,`0},System.Func{System.Boolean})">
@@ -444,7 +444,7 @@
             that the trigger will cause a transition to.</param>
             <param name="guard">Function that must return true in order for the
             trigger to be accepted.</param>
-            <returns>The reciever.</returns>
+            <returns>The receiver.</returns>
             <typeparam name="TArg0">Type of the first trigger argument.</typeparam>
             <typeparam name="TArg1">Type of the second trigger argument.</typeparam>
         </member>
@@ -456,7 +456,7 @@
             <param name="trigger">The accepted trigger.</param>
             <param name="destinationStateSelector">Function to calculate the state 
             that the trigger will cause a transition to.</param>
-            <returns>The reciever.</returns>
+            <returns>The receiver.</returns>
             <param name="guard">Function that must return true in order for the
             trigger to be accepted.</param>
             <typeparam name="TArg0">Type of the first trigger argument.</typeparam>
